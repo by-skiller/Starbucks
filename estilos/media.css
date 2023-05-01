@@ -1,0 +1,49 @@
+@media screen and (max-width: 720px) {
+
+body {
+    width: 50%;
+    margin: auto;
+}
+
+.content > h1 {
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+#btnbtn {
+    text-align: center;
+    font-size: 15px;
+}
+
+ #btnbtn > img {
+    display: none;
+ }
+
+ #without {
+    width: 50%;
+    margin-left: 70px;
+    font-size: 10px;
+ }
+
+ .forgot {
+    font-size: 12px;
+ }
+
+
+ #btnsubmit {
+    background: linear-gradient(21deg, #2c865e, #328a62);
+    padding: 15px 130px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.signup {
+    font-size: 12px;
+}
+
+.lado2 {
+    display: none;
+}
+
+}

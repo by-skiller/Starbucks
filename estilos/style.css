@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans:ital,wght@0,300;1,300;1,400&display=swap');
+/* font-family: 'Lobster', cursive;
+font-family: 'Merriweather Sans', sans-serif; */
+
+body {
+    
+    color: #025939;
+    margin: 0 auto;
+    width: 1500px;
+    padding: 15px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(237, 238, 237);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(238, 237, 237);
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#logo > img {
+    margin-top: 30px;
+    margin-bottom: -30px;
+    width: 130px;
+}
+
+.content > h1 {
+    color: #025939;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+
+#btnbtn {
+    background: linear-gradient(21deg, #ffffff, #ffffff);
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.274);
+    margin: 0% 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-size: 17px;
+    text-decoration: none;
+    font-style: normal;
+    border-radius: 10px;
+    color:#025939;
+}
+
+#btnbtn:hover {
+    background: linear-gradient(21deg, #09c07d, #05aa6e);
+}
+
+#btnbtn > img {
+    width: 25px;
+    margin: 0px 150px 0px 0px;
+}
+
+
+#without {
+    width: 730px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+#without > p { 
+    padding: 10px;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    color: gray;
+    letter-spacing: 3px;
+}
+
+form {
+    margin: 0% 15%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background: linear-gradient(21deg, #ffffff, #ffffff);
+    position:relative;
+    
+    border-radius: 10px;
+    border: none;
+    
+    padding: 15px;
+    font-size: 15px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.274);
+}
+
+#textup {
+    text-align: left;
+    color: #025939;
+    font-style: normal;
+}
+
+.forgot {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-style: normal;
+    width: 100%;
+}
+
+.forgot > a {
+    text-decoration: none;
+}
+
+.forgot > a:hover {
+    text-decoration: underline;
+}
+
+.subm {
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   width: 100%;
+    
+}
+
+#btnsubmit {
+   
+    background: linear-gradient(21deg, #2c865e, #328a62);
+    padding: 20px 210px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#btnsubmit:hover {
+    cursor: pointer;
+}
+
+.signup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    width: 100%;
+}
+
+.signup > p {
+   margin: 10px;
+   color: rgb(92, 91, 91);
+}
+
+.signup > a {
+    text-decoration: none;
+}
+
+.signup > a:hover {
+    text-decoration: underline;
+}
+
+.lado2 {
+    text-align: right;
+    background-color:#045844 ;
+    width: 100%;
+    color: white;
+    padding: 17px
+}
+
+.lado2 > h1 {
+    font-style: normal;
+    color: #56be76;
+}
+
+.lado2 > p {
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.lado2 > a {
+    color:  #56be76;
+    
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid rgb(49, 179, 77);
+    transition-duration: 0.3s;
+    margin-bottom: 50px;
+}
+
+.lado2 > a:hover {
+    background-color: white;
+    border: none;
+}
+
+.lado2 > img {
+  width: 500px;
+  margin-right: 110px;
+}
